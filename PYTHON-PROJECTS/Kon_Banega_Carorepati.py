@@ -4,9 +4,9 @@ print('\tWelcome to the game (KON BANEGA CAROREPATI)')
 print('=============================================================')
 
 while True:
-    print("\n\t1. Type -Rules- to read the rules of the game.")
-    print("\n\t2. Type -Start- to start the game.")
-    print("\n\t3. Type -Exit- to exit the game.")
+    print("\n\t1. Type [ Rules ] input to read the rules of the game.")
+    print("\n\t2. Type [ Start ] input to start the game.")
+    print("\n\t3. Type [ Exit ] input to exit the game.")
 
     user_input = input('\nEnter your input: ')
 
@@ -17,6 +17,8 @@ while True:
             print('=============================================================\n')
 
             print("1. There are some questions in game and you have to give a correct answer of each question. \n2. All questions are compulsory. \n3. Each and every question contain 4 options you have to chose 1 correct answer out of four. \n4. each correct answer have some specific prizepool that is given below:- \n\n\t A) 1st Question  - Rs.100 \n\t B) 2nd Question  - Rs.500 \n\t C) 3rd Question  - Rs.1000  \n\t D) 4rth Question - Rs.10,000 \n\t e) 5th Question  - Rs.50,000 \n\t f) 6th Question  - Rs.1,00,000 \n\t g) 7th Question  - Rs.10,00,000 \n\t h) 8th Question  - Rs.30,00,000 \n\t i) 9th Question  - Rs.70,00,000 \n\t j) 10th Question - Rs.1,00,00,000\n\n")
+
+            print('--------------------------------------------------------------------------------------------------')
 
         case 'Start':
             print('\n=============================================================')

@@ -6,9 +6,9 @@ characters_list= ['a','b','/','c','d', 'f','|','e','#','g','h','~','i','j','!','
 
 while True:
 
-    print("\n\tInput [ code ] to convert your message to Secret Code message.")
-    print("\tInput [ decode ] to decode your Secret message to normal message.")
-    print("\tInput [ exit ] to exit the coding and decoding task.\n")
+    print("\n\tInput [ code ] input to convert your message to Secret Code message.")
+    print("\tInput [ decode ] input to decode your Secret message to normal message.")
+    print("\tInput [ exit ] input to exit the coding and decoding task.\n")
 
     user_input = input('~@input.your.command:~ ')
     match user_input:
