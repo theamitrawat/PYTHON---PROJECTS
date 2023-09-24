@@ -17,15 +17,12 @@ class Calculator:
 
   def addition(self):
     print(f"\n\tAddition = {num1 + num2} ")
-    print("\n----------------------------------------------\n")
 
   def subtraction(self):
     print(f"\n\tSubtraction = {num1 - num2} ")
-    print("\n----------------------------------------------\n")
 
   def multiplication(self):
     print(f"\n\tMultiplication = {num1 * num2} ")
-    print("\n----------------------------------------------\n")
 
   """
   The function performs division between two numbers, handling the case where the second number is zero.
@@ -36,7 +33,6 @@ class Calculator:
       print("\n~ number cannot divide by zero. ~\n")
     else:
       print(f"\n\tDivision = {num1 / num2} ")
-      print("\n----------------------------------------------\n")
 
 print('\n------------- BASIC CALCULATOR ---------------\n')
 
@@ -75,7 +71,5 @@ while True:
 
     else:
       print("\n\tInvalid option. Please choose correct option.")
-      print("\n--------------------------------------------------------\n")
   except ValueError:
     print("\n~ Invalid input. Please enter valid numbers. ~")
-    print("\n--------------------------------------------------------\n")
